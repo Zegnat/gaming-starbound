@@ -1,0 +1,2 @@
+*.player diff=sbjson
+*.player.* diff=sbjson

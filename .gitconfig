@@ -1,0 +1,3 @@
+[diff "sbjson"]
+	textconv = sh -c 'osx/dump_versioned_json "$0" /tmp/sbjson && cat /tmp/sbjson && rm /tmp/sbjson'
+	binary = true
